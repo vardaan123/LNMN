@@ -8,6 +8,7 @@
 
 ## Prepare data for training
 Step 1: Download the CLEVR dataset using the link https://dl.fbaipublicfiles.com/clevr/CLEVR_v1.0.zip and copy it in `<CLEVR-DIR>`
+
 Step-2: Run `python image_feature_resnet.py <CLEVR-DIR>` to create Resnet-101 features for CLEVR images in h5py format
 
 ## Train a model on CLEVR dataset
