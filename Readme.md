@@ -1,3 +1,8 @@
+# Structure Learning for Neural Module Networks
+[Paper](https://www.aclweb.org/anthology/D19-6401.pdf)
+
+[Slides](LANTERN_slides.pdf) (LANTERN workshop at EMNLP 2019)
+
 # Documentation for running the code
 
 ```
@@ -52,3 +57,5 @@ python dump_test_ans.py --max_time_stamps 5 --max_stack_len 5 --map_dim 384 --ba
 ```
 python dump_test_ans_clevr_humans.py --max_time_stamps 5 --max_stack_len 5 --map_dim 384 --batch_size 64 --model_dir <MODEL-DIR> --ckpt <PATH-TO-CHECKPOINT-FILE> --clevr_dir <CLEVR-DIR>
 ```
+
+
